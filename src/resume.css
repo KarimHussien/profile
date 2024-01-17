@@ -1,0 +1,75 @@
+.contact-info {
+    text-align: center;
+    line-height: 0.5;
+    max-height: 125px;
+}
+
+.profile-picture {
+    position: relative;
+    top: -150px;
+    left: 200px;
+    width: 200px;
+    height: 150px;
+}
+
+.objective-statement {
+    line-height: 0.5;
+}
+
+.education {
+    line-height: 0.5;
+}
+
+.education-list {
+    line-height: 1.2;
+}
+
+.relevant-coursework {
+    line-height: 0.7;
+}
+
+.achievements-involvements {
+    line-height: 1;
+}
+
+.work-experience {
+    line-height: 0.5;
+}
+
+.work-experience-list {
+    line-height: 1.2;
+}
+
+.projects {
+    line-height: 1.2;
+}
+
+.space-container {
+    position: relative;
+    left: 600px;
+}
+
+.space-container-2 {
+    position: relative;
+    left: 575px;
+}
+
+.space-container-3 {
+    position: relative;
+    left: 725px;
+}
+
+.space-container-4 {
+    position: relative;
+    left: 675px;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    background: linear-gradient(to bottom, #0099ff 0%, #66ff66 100%);
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
