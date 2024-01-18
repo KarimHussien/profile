@@ -11,3 +11,30 @@
   padding: 20px;
   /* Additional styling as needed */
 }
+
+@media screen and (max-width: 1500px)
+{
+  .AllComponents {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 900px)
+{
+  .AllComponents {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .AllComponents {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+  }
+}

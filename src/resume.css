@@ -10,6 +10,8 @@
     left: 200px;
     width: 200px;
     height: 150px;
+    border: 1px solid black;
+    border-radius: 200px;
 }
 
 .objective-statement {
@@ -17,7 +19,7 @@
 }
 
 .education {
-    line-height: 0.5;
+    line-height: 0.2;
 }
 
 .education-list {
@@ -25,7 +27,7 @@
 }
 
 .relevant-coursework {
-    line-height: 0.7;
+    line-height: 0.5;
 }
 
 .achievements-involvements {
@@ -64,6 +66,11 @@
     left: 675px;
 }
 
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 h2 {
     text-align: left;
     text-decoration: underline;
@@ -71,5 +78,110 @@ h2 {
     display: flex;
     border: 2px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1500px) 
+{
+    .objective-statement {
+        line-height: 0.8;
+    }
+
+    .space-container {
+        position: relative;
+        left: 500px;
+    }
+    
+    .space-container-2 {
+        position: relative;
+        left: 475px;
+    }
+    
+    .space-container-3 {
+        position: relative;
+        left: 625px;
+    }
+    
+    .space-container-4 {
+        position: relative;
+        left: 575px;
+    }
+}
+
+@media screen and (max-width: 900px) 
+{
+    .profile-picture {
+        position: relative;
+        top: -140px;
+        left: 190px;
+        width: 175px;
+        height: 125px;
+        border: 1px solid black;
+        border-radius: 200px;
+    }
+
+    .objective-statement {
+        line-height: 1;
+    }
+
+    .relevant-coursework {
+        line-height: 1.2;
+    }
+
+    .space-container {
+        position: relative;
+        left: 200px;
+    }
+    
+    .space-container-2 {
+        position: relative;
+        left: 175px;
+    }
+    
+    .space-container-3 {
+        position: relative;
+        left: 325px;
+    }
+    
+    .space-container-4 {
+        position: relative;
+        left: 275px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .profile-picture {
+        position: relative;
+        top: -110px;
+        left: 150px;
+        width: 100px;
+        height: 75px;
+        border: 1px solid black;
+        border-radius: 200px;
+    }
+
+    .education {
+        line-height: 1;
+    }
+
+    .space-container {
+        position: relative;
+        left: 20px;
+    }
+    
+    .space-container-2 {
+        position: relative;
+        left: 0px;
+    }
+    
+    .space-container-3 {
+        position: relative;
+        left: 125px;
+    }
+    
+    .space-container-4 {
+        position: relative;
+        left: 75px;
+    }
 }

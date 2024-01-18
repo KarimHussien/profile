@@ -52,14 +52,14 @@ function Education() {
         <section className="education">
             <h2>Education</h2>
             <p>University of North Florida <span className="space-container">Jacksonville, FL.</span></p>
-            <p>Bachelor of Science in Computer Science</p>
+            <p><i>Bachelor of Science in Computer Science</i></p>
             <p>Major in Computer Science</p>
             <ul className="education-list">
                 <li>GPA: 3.96/4.00</li>
                 <li>Made the Dean’s List for Spring and Fall terms for 2021, 2022 and 2023.</li>
             </ul>
             <p>Saint Johns River State College <span className="space-container-2">Saint Augustine, FL.</span></p>
-            <p>Associate in Arts</p>
+            <p><i>Associate in Arts</i></p>
         </section>
     );
 }
@@ -117,12 +117,12 @@ function WorkExperience() {
         <section className="work-experience">
             <h2>Work Experience</h2>
             <p>Nautica <span className="space-container-3">Saint Augustine, FL.</span></p>
-            <p>Sales Associate <span className="space-container-4">June 2018 to Present.</span></p>
+            <p><i>Sales Associate</i> <span className="space-container-4">June 2018 to Present.</span></p>
             <ul className="work-experience-list">
                 <li>Greeted customers and ascertained their needs.</li>
                 <li>Worked collaboratively in a team environment.</li>
                 <li>Was entrusted with additional responsibilities, such as voiding and price changing, which was not standard for Sales Associates.</li>
-                <li>Assisted with technical problems, such as with Excel files or working with company software.</li>
+                <li>Assisted with technical problems, such as with Microsoft 365 applications or working with company software.</li>
             </ul>
         </section>
     );
@@ -133,9 +133,9 @@ function Projects() {
         <section className="projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="https://www.alexkeo.com/" target="_blank" rel="noreferrer">Multipurpose Website</a>: Worked collaboratively in a team environment to create a fullstack website that offered features such as a map, planner, and calendar tool. 
+                <li><a href="https://www.alexkeo.com/" target="_blank" rel="noreferrer">Multipurpose Website</a>: Worked collaboratively in a team environment to create a full-stack website that offered features such as a map, planner, and calendar tool. 
                     The project was created using Agile practices.</li>
-                <li><a href="https://warm-boba-2f892c.netlify.app/" target="_blank" rel="noreferrer">React website</a>: Created a website using React and deployed it myself to the web. </li>
+                <li><a href="https://warm-boba-2f892c.netlify.app/" target="_blank" rel="noreferrer">React website</a>: Created a website using the React framework and deployed it to the web. </li>
                 <li>N-queens: Created a genetic algorithm from scratch that could solve the N-queens problems.</li>
                 <li>Bankers algorithm: Created a program that could replicate the work that the Bankers algorithm is used for.</li>
             </ul>
