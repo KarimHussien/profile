@@ -95,6 +95,7 @@ function RelevantSkills() {
                 <li>Eclipse</li>
                 <li>Visual Studio Code</li>
                 <li>Version control software (Git and GitHub)</li>
+                <li>Cloud Computing (Microsoft Azure)</li>
             </ul>
         </section>
     );
@@ -105,6 +106,7 @@ function AchievementsandInvolvements() {
         <section className="achievements-involvements">
             <h2>Achievements and Involvements</h2>
             <ul>
+                <li>Earned the Certificate for the Microsoft Azure Fundamentals Exams.</li>
                 <li>Member of Phi Kappa Phi, NSCS, Phi Theta Kappa, and Upsilon Pi Epsilon.</li>
                 <li>Graduated Summa Cum Laude.</li>
             </ul>
@@ -135,7 +137,7 @@ function Projects() {
             <ul>
                 <li><a href="https://www.alexkeo.com/" target="_blank" rel="noreferrer">Multipurpose Website</a>: Worked collaboratively in a team environment to create a full-stack website that offered features such as a map, planner, and calendar tool. 
                     The project was created using Agile practices.</li>
-                <li><a href="https://warm-boba-2f892c.netlify.app/" target="_blank" rel="noreferrer">React website</a>: Created a website using the React framework and deployed it to the web. </li>
+                <li><a href="https://generation-1-pokemon-facts.netlify.app/" target="_blank" rel="noreferrer">React website</a>: Created a website using the React framework and deployed it to the web. </li>
                 <li>N-queens: Created a genetic algorithm from scratch that could solve the N-queens problems.</li>
                 <li>Bankers algorithm: Created a program that could replicate the work that the Bankers algorithm is used for.</li>
             </ul>
