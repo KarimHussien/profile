@@ -1,17 +1,9 @@
 import './resume.css';
 import resumeImage from './assets/Images/IMG_0067.JPG';
 
-function AllComponents({ children }) {
-    return (
-      <div className="AllComponents">
-        {children}
-      </div>
-    );
-  }
-
 function Resume() {
     return (
-        <AllComponents>
+        <>
             <ContactInformation />
             <ObjectiveStatement />
             <Education />
@@ -20,7 +12,7 @@ function Resume() {
             <AchievementsandInvolvements />
             <WorkExperience />
             <Projects />
-        </AllComponents>
+        </>
     );
 }
 

@@ -15,35 +15,35 @@
 }
 
 .objective-statement {
-    line-height: 0.5;
+    line-height: 0.7;
 }
 
 .education {
-    line-height: 0.2;
+    line-height: 0.4;
 }
 
 .education-list {
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .relevant-coursework {
-    line-height: 0.5;
+    line-height: 0.7;
 }
 
 .achievements-involvements {
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .work-experience {
-    line-height: 0.5;
+    line-height: 0.7;
 }
 
 .work-experience-list {
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .projects {
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .space-container {
@@ -74,7 +74,9 @@ h1 {
 h2 {
     text-align: left;
     text-decoration: underline;
-    background: linear-gradient(to bottom, #0099ff 0%, #66ff66 100%);
+    /*background: linear-gradient(to bottom, #0099ff 0%, #66ff66 100%);*/
+    /*background: linear-gradient(to bottom, #66ff66 0%, #0099ff 100%);*/
+    background: linear-gradient(to bottom, #00bdff 0%, #66ffae 100%);
     display: flex;
     border: 2px solid black;
     border-radius: 5px;
@@ -84,7 +86,7 @@ h2 {
 @media screen and (max-width: 1500px) 
 {
     .objective-statement {
-        line-height: 0.8;
+        line-height: 1;
     }
 
     .space-container {
@@ -121,11 +123,11 @@ h2 {
     }
 
     .objective-statement {
-        line-height: 1;
+        line-height: 1.2;
     }
 
     .relevant-coursework {
-        line-height: 1.2;
+        line-height: 1.4;
     }
 
     .space-container {
@@ -162,7 +164,7 @@ h2 {
     }
 
     .education {
-        line-height: 1;
+        line-height: 1.2;
     }
 
     .space-container {
