@@ -202,15 +202,24 @@ h2 {
     }
 }
 
-@media screen and (max-width: 300px)
+@media screen and (max-width: 400px)
 {
+    .space-container {
+        position: relative;
+        left: 0px;
+    }
+
     .space-container-3 {
         position: relative;
-        left: 100px;
+        left: 75px;
     }
     
     .space-container-4 {
         position: relative;
-        left: 50px;
+        left: 25px;
+    }
+
+    .spacing-required {
+        display: none;
     }
 }

@@ -51,6 +51,15 @@ body
     }
   }
 
+  @media screen and (max-width: 400px)
+  {
+    .AllComponents {
+      max-width: 250px;
+      width: 100%;
+      padding: 0px;
+    }
+  }
+
   .contact-info {
     text-align: center;
     line-height: 0.5;
@@ -128,8 +137,6 @@ h1 {
 h2 {
     text-align: left;
     text-decoration: underline;
-    /*background: linear-gradient(to bottom, #0099ff 0%, #66ff66 100%);*/
-    /*background: linear-gradient(to bottom, #66ff66 0%, #0099ff 100%);*/
     background: linear-gradient(to bottom, #00bdff 0%, #66ffae 100%);
     display: flex;
     border: 2px solid black;
@@ -257,15 +264,24 @@ h2 {
     }
 }
 
-@media screen and (max-width: 300px)
+@media screen and (max-width: 400px)
 {
+    .space-container {
+        position: relative;
+        left: 0px;
+    }
+
     .space-container-3 {
         position: relative;
-        left: 100px;
+        left: 75px;
     }
     
     .space-container-4 {
         position: relative;
-        left: 50px;
+        left: 25px;
+    }
+
+    .spacing-required {
+        display: none;
     }
 }

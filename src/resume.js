@@ -111,7 +111,7 @@ function WorkExperience() {
         <section className="work-experience">
             <h2>Work Experience</h2>
             <p>Nautica <span className="space-container-3">Saint Augustine, FL.</span></p>
-            <p><i>Sales Associate</i> <span className="space-container-4">June 2018 to Present.</span></p>
+            <p><i>Sales Associate</i> <span className="space-container-4">June 2018 <span className="spacing-required">to Present.</span></span></p>
             <ul className="work-experience-list">
                 <li>Greeted customers and ascertained their needs.</li>
                 <li>Worked collaboratively in a team environment.</li>

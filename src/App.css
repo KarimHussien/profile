@@ -38,3 +38,12 @@
     padding: 20px;
   }
 }
+
+@media screen and (max-width: 400px)
+{
+  .AllComponents {
+    max-width: 250px;
+    width: 100%;
+    padding: 0px;
+  }
+}
