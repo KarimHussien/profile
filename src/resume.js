@@ -34,7 +34,7 @@ function ObjectiveStatement() {
         <section className="objective-statement">
             <h2>Objective Statement</h2>
             <p>Computer Science graduate, seeking a permanent position as a full-stack, back-end, front-end developer or software engineer. </p>
-            <p>Seeking to build critical client applications to serve customer needs.</p>
+            <p>Seeking to further professional skills and build critical client applications to serve customer needs.</p>
         </section>
     );
 }
@@ -48,7 +48,7 @@ function Education() {
             <p>Major in Computer Science</p>
             <ul className="education-list">
                 <li>GPA: 3.96/4.00</li>
-                <li>Made the Dean’s List for Spring and Fall terms for 2021, 2022 and 2023.</li>
+                <li>Made the Dean’s List for Spring and Fall terms for 2021-2023.</li>
             </ul>
             <p>Saint Johns River State College <span className="space-container-2">Saint Augustine, FL.</span></p>
             <p><i>Associate in Arts</i></p>
@@ -60,11 +60,11 @@ function RelevantCoursework() {
     return (
         <section className="relevant-coursework">
             <h2>Relevant Coursework</h2>
-            <p><b>COP2220 Programming I</b>: Learned to use the C coding language, and Linux OS.</p>
-            <p><b>COP3503 Programming II</b>: Learned to use the Java coding language, and Eclipse.</p>
-            <p><b>COP3813 Internet Programming</b>: Learned to use HTML, CSS, JavaScript, PHP and Node.js.</p>
-            <p><b>COP3703 Introduction to Database</b>: Learned to build relational databases and use SQL.</p>
-            <p><b>CEN4010 Software Engineering</b>: Learned about the SDLC and Agile and Scrum methodologies.</p>
+            <p><b>Programming I</b>: Learned to use C and Linux OS.</p>
+            <p><b>Programming II</b>: Learned to use Java and Eclipse.</p>
+            <p><b>Internet Programming</b>: Learned to use HTML, CSS, JavaScript, PHP and Node.js.</p>
+            <p><b>Database</b>: Learned to build relational databases and use SQL.</p>
+            <p><b>Software Engineering</b>: Learned about the SDLC and Agile and Scrum methodologies.</p>
         </section>
     );
 }
@@ -113,10 +113,10 @@ function WorkExperience() {
             <p>Nautica <span className="space-container-3">Saint Augustine, FL.</span></p>
             <p><i>Sales Associate</i> <span className="space-container-4">June 2018 <span className="spacing-required">to Present.</span></span></p>
             <ul className="work-experience-list">
-                <li>Greeted customers and ascertained their needs.</li>
-                <li>Worked collaboratively in a team environment.</li>
-                <li>Was entrusted with additional responsibilities, such as voiding and price changing, which was not standard for Sales Associates.</li>
-                <li>Assisted with technical problems, such as with Microsoft 365 applications or working with company software.</li>
+                <li>Excelled in customer service by greeting customers and ascertaining their needs. </li>
+                <li>Worked collaboratively in a team environment and enhanced operational efficiency.</li>
+                <li>Entrusted with advanced responsibilities including item voiding and price adjustments, demonstrating trust and competence beyond standard duties.</li>
+                <li>Provided technical support with Microsoft 365 applications and company software.</li>
             </ul>
         </section>
     );
@@ -127,11 +127,17 @@ function Projects() {
         <section className="projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="https://www.alexkeo.com/" target="_blank" rel="noreferrer">Multipurpose Website</a>: Worked collaboratively in a team environment to create a full-stack website that offered features such as a map, planner, and calendar tool. 
+                <li><b><a href="https://www.alexkeo.com/" target="_blank" rel="noreferrer">Osprey Productivity Tool</a></b> (Java, SQL): 
+                    Worked collaboratively in a team environment to create a full-stack website that offered features such as a map, planner, and calendar tool. 
                     The project was created using Agile practices.</li>
-                <li><a href="https://generation-1-pokemon-facts.netlify.app/" target="_blank" rel="noreferrer">React website</a>: Created a website using the React framework and deployed it to the web. </li>
-                <li>N-queens: Created a genetic algorithm from scratch that could solve the N-queens problems.</li>
-                <li>Bankers algorithm: Created a program that could replicate the work that the Bankers algorithm is used for.</li>
+                <li><b><a href="https://generation-1-pokemon-facts.netlify.app/" target="_blank" rel="noreferrer">React Website</a></b> (HTML, CSS, JavaScript, Node.js, React): 
+                    Created a website using the React framework and deployed it to the web. </li>
+                <li><b>University Relational Database</b> (Java, SQL, Oracle):
+                    Collaborated with team members to evaluate the database needs and requirements for a hypothetical university.
+                    Designed, developed, and tested the database over the course of a semester.
+                    Completed the database project a week ahead of scheduled due date, including testing and finalizing.</li>
+                <li><b>N-queens</b> (Java): Created a genetic algorithm from scratch that could solve the N-queens problems.</li>
+                <li><b>Bankers algorithm</b> (Java): Created a program that could replicate the work that the Bankers algorithm is used for.</li>
             </ul>
         </section>
     );
