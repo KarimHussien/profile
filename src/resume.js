@@ -76,6 +76,8 @@ function RelevantSkills() {
             <ul>
                 <li>C</li>
                 <li>Java</li>
+                <li>C#</li>
+                <li>.NET</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
