@@ -9,7 +9,7 @@ function Resume() {
             <Education />
             <RelevantCoursework />
             <RelevantSkills />
-            <AchievementsandCertificationss />
+            <Achievementsandcertifications />
             <WorkExperience />
             <Projects />
         </>
@@ -95,7 +95,7 @@ function RelevantSkills() {
     );
 }
 
-function AchievementsandCertificationss() {
+function Achievementsandcertifications() {
     return (
         <section className="achievements-certifications">
             <h2>Achievements and Certifications</h2>
