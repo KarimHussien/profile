@@ -9,7 +9,7 @@ function Resume() {
             <Education />
             <RelevantCoursework />
             <RelevantSkills />
-            <AchievementsandInvolvements />
+            <AchievementsandCertificationss />
             <WorkExperience />
             <Projects />
         </>
@@ -33,7 +33,7 @@ function ObjectiveStatement() {
     return (
         <section className="objective-statement">
             <h2>Objective Statement</h2>
-            <p>Computer Science graduate, seeking a permanent position as a full-stack, back-end, front-end developer or software engineer. </p>
+            <p>Computer Science graduate, seeking a permanent position as a full-stack, back-end or front-end developer or as a software engineer. </p>
             <p>Seeking to further professional skills and build critical client applications to serve customer needs.</p>
         </section>
     );
@@ -47,7 +47,7 @@ function Education() {
             <p><i>Bachelor of Science in Computer Science</i></p>
             <p>Major in Computer Science</p>
             <ul className="education-list">
-                <li>GPA: 3.96/4.00</li>
+                <li>GPA: 3.96 / 4.00</li>
                 <li>Made the Dean’s List for Spring and Fall terms for 2021-2023.</li>
             </ul>
             <p>Saint Johns River State College <span className="space-container-2">Saint Augustine, FL.</span></p>
@@ -60,7 +60,7 @@ function RelevantCoursework() {
     return (
         <section className="relevant-coursework">
             <h2>Relevant Coursework</h2>
-            <p><b>Programming I</b>: Learned to use C and Linux OS.</p>
+            <p><b>Programming I</b>: Learned to use C and Linux commands.</p>
             <p><b>Programming II</b>: Learned to use Java and Eclipse.</p>
             <p><b>Internet Programming</b>: Learned to use HTML, CSS, JavaScript, PHP and Node.js.</p>
             <p><b>Database</b>: Learned to build relational databases and use SQL.</p>
@@ -95,10 +95,10 @@ function RelevantSkills() {
     );
 }
 
-function AchievementsandInvolvements() {
+function AchievementsandCertificationss() {
     return (
-        <section className="achievements-involvements">
-            <h2>Achievements and Involvements</h2>
+        <section className="achievements-certifications">
+            <h2>Achievements and Certifications</h2>
             <ul>
                 <li>Earned the Certificate for the Microsoft Azure Fundamentals Exams.</li>
                 <li>Member of Phi Kappa Phi, NSCS, Phi Theta Kappa, and Upsilon Pi Epsilon.</li>
