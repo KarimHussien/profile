@@ -78,13 +78,14 @@ function RelevantSkills() {
                 <li>Java</li>
                 <li>C#</li>
                 <li>.NET</li>
+                <li>Python</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
                 <li>Node.js</li>
                 <li>React</li>
-                <li>SQL Languages</li>
+                <li>SQL</li>
                 <li>Linux</li>
                 <li>Eclipse</li>
                 <li>Visual Studio Code</li>
@@ -148,3 +149,34 @@ function Projects() {
 }
 
 export default Resume;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
